@@ -85,7 +85,7 @@ func (s *Slack) ObjectDeleted(obj interface{}) {
 
 // ObjectUpdated calls notifySlack on event creation
 func (s *Slack) ObjectUpdated(oldObj, newObj interface{}) {
-	notifySlack(s, newObj, "updated")
+	// notifySlack(s, newObj, "updated")
 }
 
 // TestHandler tests the handler configurarion by sending test messages.
